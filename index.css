@@ -1,0 +1,156 @@
+body {
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  background-color: #747474#;
+  padding-top: 70px;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+/************** section 2 ************/
+* {
+  box-sizing: border-box;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background: black;
+  background-size: cover;
+  background-position: center;
+  transition: box-shadow 0.25s ease 0s;
+  display: block;
+  box-sizing: inherit;
+  margin-right: 256px;
+  display: flex;
+}
+
+.section_inner {
+  zoom: 1;
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #3d83df;
+  outline: 0;
+  transition: all 0.2s ease 0s;
+}
+
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+
+img {
+  max-width: 100%;
+  border: 0;
+  box-sizing: inherit;
+}
+/*************section 3************/
+.main-nav {
+  position: relative;
+  float: right;
+}
+
+.main-menu {
+  list-style: none;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 2em;
+  padding: 1.33em 0;
+  margin-left: 256px;
+}
+
+.main-menu a {
+  padding-left: 100px;
+  color: #ababab;
+}
+
+.lead {
+  margin: 2.0625rem auto 3.75rem;
+}
+.section__inner {
+  zoom: 100;
+  max-width: 15px;
+  padding: 0 2000px;
+  margin: 0 auto;
+  position: relative;
+}
+.lead__logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.countryCards {
+  margin: 0 10px;
+  display: grid;
+  gap: 20px;
+  width: 1650px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.countryWarsaw {
+  width: auto;
+  height: 100vh;
+}
+
+#container-1 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: #05b39b;
+  font-size: 22px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.lead {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/****Section 6***/
+hr {
+  border-top: 0.5px solid #eef2f2;
+  margin-bottom: 40px;
+}
+
+footer {
+  font-size: 12px;
+  line-height: 16px;
+  color: #ababab;
+  text-align: center;
+}
+
+.footerLine1 {
+  padding-bottom: 20px;
+}
+
+.footerLine2 {
+  padding-bottom: 7px;
+}
+
+.footerLine3 {
+  padding-bottom: 10px;
+}
+
+.blueText {
+  color: #3d83df;
+}
